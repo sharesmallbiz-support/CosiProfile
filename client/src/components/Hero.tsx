@@ -23,8 +23,12 @@ export function Hero() {
   return (
     <section className="relative h-[70vh] min-h-[600px] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-top"
-        style={{ backgroundImage: `url(${heroImage})` }}
+        className="absolute inset-0 bg-top bg-center"
+        style={{ 
+          backgroundImage: `url(${heroImage})`,
+          backgroundSize: 'contain',
+          backgroundRepeat: 'no-repeat'
+        }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
       
