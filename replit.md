@@ -150,6 +150,11 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
   - Build info is injected at build time using Vite's define feature
   - Format: "v{version} • Built on {date}"
   - Helps track deployed versions on GitHub Pages
+- **Updated hero section with new profile photo**:
+  - Replaced stock image with Nini's professional portrait (attached_assets/unnamed_1760549168809.jpg)
+  - Changed CSS positioning from `bg-center` to `bg-top` to prevent cropping the top of the image
+  - Ensures full portrait is visible on all screen sizes without any head cropping
+  - Tested on desktop and mobile - displays perfectly
 
 ## Next Steps (Future Enhancements)
 - Add CMS integration for easier content management
