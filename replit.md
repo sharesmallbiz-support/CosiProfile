@@ -103,6 +103,8 @@ To update content:
 This is a **100% static site** with no database or backend. To deploy:
 
 1. Run `./build-github.sh` to build static files to `/docs` folder
+   - Uses `vite.config.github.ts` which generates **relative paths** (required for GitHub Pages subdirectory deployment)
+   - This prevents 404 errors for CSS/JS files when deployed to `https://username.github.io/repo-name/`
 2. Commit and push the `/docs` folder to GitHub
 3. Configure GitHub Pages to serve from `/docs` folder on main branch
 4. Site will be live at `https://[username].github.io/[repo-name]`

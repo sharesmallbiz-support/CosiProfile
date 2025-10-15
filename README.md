@@ -19,7 +19,7 @@ A beautiful, modern bilingual static profile website for **Nini**, Georgian cont
    ```bash
    ./build-github.sh
    ```
-   This creates the `/docs` folder with all static files.
+   This creates the `/docs` folder with all static files using **relative paths** (required for GitHub Pages subdirectory deployment).
 
 2. **Commit and push to GitHub**:
    ```bash
