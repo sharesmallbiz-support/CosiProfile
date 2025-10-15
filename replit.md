@@ -133,6 +133,10 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - Integrated scroll animations for elegant reveals
 - Added sage green accents throughout the design
 - Successfully tested all features end-to-end
+- **Fixed GitHub Pages deployment**: 
+  - Created `vite.config.github.ts` with relative paths (fixes CSS/JS 404 errors)
+  - Implemented hash-based routing to work with GitHub Pages subdirectories
+  - URLs now use hash fragments (e.g., `/#/`) for compatibility
 
 ## Next Steps (Future Enhancements)
 - Add CMS integration for easier content management
