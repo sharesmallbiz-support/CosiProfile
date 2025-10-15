@@ -14,9 +14,10 @@ A beautiful, modern bilingual static profile website for **Nini Chaladzè**, a G
 ### Sections
 1. **Hero Section**: Full-width background with Nini's portrait, name, tagline, and call-to-action
 2. **About Section**: Bio with workspace image, mission statement, and personal story
-3. **Portfolio Gallery**: Masonry layout with category filters (All, Gifts, Custom, Featured) and lightbox modal
-4. **Contact Section**: Contact form, social media links (Instagram, LinkedIn), and location badge
-5. **Footer**: Company info, quick links, copyright, and Georgian flag tagline
+3. **Videos Section**: YouTube channel embed showcasing latest content and creative journey
+4. **Portfolio Gallery**: Masonry layout with category filters (All, Gifts, Custom, Featured) and lightbox modal
+5. **Contact Section**: Contact form, social media links (Instagram, LinkedIn, YouTube), and location badge
+6. **Footer**: Company info, quick links, copyright, and Georgian flag tagline
 
 ## Design System
 ### Color Palette
@@ -123,6 +124,7 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - **Full Name**: Nini Chaladzè
 - **LinkedIn**: https://www.linkedin.com/in/nini-chaladze-425819178/
 - **Instagram**: https://www.instagram.com/ni.chaladze/
+- **YouTube**: https://www.youtube.com/channel/UC5ew6KjGzWdBDp6eRB9O2zA
 
 ## User Preferences
 - **Language Display**: The site defaults to English but remembers user's language choice
