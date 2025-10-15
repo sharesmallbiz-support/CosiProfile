@@ -8,6 +8,7 @@ export interface PortfolioItem {
 export interface LanguageContent {
   nav: {
     about: string;
+    videos: string;
     portfolio: string;
     contact: string;
   };
@@ -22,6 +23,11 @@ export interface LanguageContent {
     title: string;
     bio: string;
     mission: string;
+  };
+  videos: {
+    title: string;
+    subtitle: string;
+    channelLink: string;
   };
   portfolio: {
     title: string;
@@ -47,6 +53,7 @@ export interface LanguageContent {
       title: string;
       instagram: string;
       linkedin: string;
+      youtube: string;
     };
     location: string;
   };

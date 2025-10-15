@@ -59,6 +59,13 @@ export function Header() {
               {content.nav.about}
             </button>
             <button
+              onClick={() => scrollToSection('videos')}
+              className="text-foreground hover:text-primary transition-colors font-medium"
+              data-testid="link-videos"
+            >
+              {content.nav.videos}
+            </button>
+            <button
               onClick={() => scrollToSection('portfolio')}
               className="text-foreground hover:text-primary transition-colors font-medium"
               data-testid="link-portfolio"
@@ -114,6 +121,13 @@ export function Header() {
               data-testid="link-about-mobile"
             >
               {content.nav.about}
+            </button>
+            <button
+              onClick={() => scrollToSection('videos')}
+              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+              data-testid="link-videos-mobile"
+            >
+              {content.nav.videos}
             </button>
             <button
               onClick={() => scrollToSection('portfolio')}

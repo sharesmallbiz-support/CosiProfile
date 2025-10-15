@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Instagram, Linkedin, MapPin } from 'lucide-react';
+import { Instagram, Linkedin, Youtube, MapPin } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { Button } from '@/components/ui/button';
@@ -122,6 +122,18 @@ export function Contact() {
                     <Linkedin className="h-6 w-6 text-sage" />
                   </div>
                   <span className="font-medium">{content.contact.social.linkedin}</span>
+                </a>
+                <a
+                  href="https://www.youtube.com/channel/UC5ew6KjGzWdBDp6eRB9O2zA"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="flex items-center gap-3 text-foreground hover:text-primary transition-all group"
+                  data-testid="link-youtube"
+                >
+                  <div className="bg-primary/10 p-2 rounded-md group-hover:bg-primary/20 transition-colors">
+                    <Youtube className="h-6 w-6 text-primary" />
+                  </div>
+                  <span className="font-medium">{content.contact.social.youtube}</span>
                 </a>
               </div>
             </div>

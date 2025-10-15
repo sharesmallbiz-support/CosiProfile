@@ -1,6 +1,7 @@
 {
   "nav": {
     "about": "About",
+    "videos": "Videos",
     "portfolio": "Portfolio",
     "contact": "Contact"
   },
@@ -15,6 +16,11 @@
     "title": "About Nini",
     "bio": "I'm Nini, a Georgian content creator and the founder of Kosi. My passion lies in creating unique, handcrafted gifts that tell stories and celebrate the rich heritage of Georgia. Each piece is thoughtfully designed and crafted with love, bringing warmth and authenticity to every creation.\n\nFrom custom gifts to bespoke artisan pieces, I combine traditional Georgian craftsmanship with contemporary design to create something truly special. Every item is a labor of love, made to bring joy and meaning to those who receive them.",
     "mission": "My mission is to share the beauty of Georgian artistry with the world, one handcrafted piece at a time."
+  },
+  "videos": {
+    "title": "Videos",
+    "subtitle": "Watch My Creative Journey",
+    "channelLink": "View All Videos"
   },
   "portfolio": {
     "title": "Portfolio",
@@ -76,7 +82,8 @@
     "social": {
       "title": "Connect With Me",
       "instagram": "Instagram",
-      "linkedin": "LinkedIn"
+      "linkedin": "LinkedIn",
+      "youtube": "YouTube"
     },
     "location": "Tbilisi, Georgia"
   },
