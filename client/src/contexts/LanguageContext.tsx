@@ -30,7 +30,7 @@ export function LanguageProvider({ children }: { children: React.ReactNode }) {
       }
 
       try {
-        const response = await fetch(`/${language}.json`);
+        const response = await fetch(`./${language}.json`);
         const data = await response.json();
         setContent(data);
       } catch (error) {

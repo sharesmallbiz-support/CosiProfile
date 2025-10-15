@@ -136,6 +136,7 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - **Fixed GitHub Pages deployment**: 
   - Created `vite.config.github.ts` with relative paths (fixes CSS/JS 404 errors)
   - Implemented hash-based routing to work with GitHub Pages subdirectories
+  - Fixed language JSON file paths to use relative URLs (`./en.json` instead of `/en.json`)
   - URLs now use hash fragments (e.g., `/#/`) for compatibility
 
 ## Next Steps (Future Enhancements)
