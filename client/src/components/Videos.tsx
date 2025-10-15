@@ -3,14 +3,8 @@ import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { Button } from '@/components/ui/button';
 import { ExternalLink } from 'lucide-react';
 
-const YOUTUBE_CHANNEL_URL = 'https://www.youtube.com/channel/UC5ew6KjGzWdBDp6eRB9O2zA';
-
-// Featured video IDs - update these with your latest videos
-const FEATURED_VIDEOS = [
-  'YOUR_VIDEO_ID_1', // Replace with actual video IDs
-  'YOUR_VIDEO_ID_2',
-  'YOUR_VIDEO_ID_3',
-];
+const YOUTUBE_CHANNEL_ID = 'UC5ew6KjGzWdBDp6eRB9O2zA';
+const YOUTUBE_CHANNEL_URL = `https://www.youtube.com/channel/${YOUTUBE_CHANNEL_ID}`;
 
 export function Videos() {
   const { content } = useLanguage();
@@ -32,15 +26,15 @@ export function Videos() {
           </p>
         </div>
 
-        {/* YouTube Channel Embed */}
+        {/* YouTube Channel Latest Upload Embed */}
         <div className="max-w-5xl mx-auto mb-8">
           <div className="aspect-video rounded-lg overflow-hidden bg-background shadow-lg">
             <iframe
               className="w-full h-full"
-              src={`https://www.youtube.com/embed?listType=user_uploads&list=UC5ew6KjGzWdBDp6eRB9O2zA`}
-              title="YouTube Channel Videos"
+              src={`https://www.youtube.com/embed?listType=playlist&list=UU${YOUTUBE_CHANNEL_ID.substring(2)}`}
+              title="YouTube Channel Latest Videos"
               frameBorder="0"
-              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
               allowFullScreen
               data-testid="iframe-youtube-channel"
             />
