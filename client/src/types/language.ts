@@ -46,7 +46,7 @@ export interface LanguageContent {
     social: {
       title: string;
       instagram: string;
-      facebook: string;
+      linkedin: string;
     };
     location: string;
   };

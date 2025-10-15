@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Instagram, Facebook, MapPin } from 'lucide-react';
+import { Instagram, Linkedin, MapPin } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
 import { Button } from '@/components/ui/button';
@@ -100,7 +100,7 @@ export function Contact() {
               </h3>
               <div className="space-y-4">
                 <a
-                  href="https://instagram.com"
+                  href="https://www.instagram.com/ni.chaladze/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-foreground hover:text-primary transition-all group"
@@ -112,16 +112,16 @@ export function Contact() {
                   <span className="font-medium">{content.contact.social.instagram}</span>
                 </a>
                 <a
-                  href="https://facebook.com"
+                  href="https://www.linkedin.com/in/nini-chaladze-425819178/?originalSubdomain=ge"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center gap-3 text-foreground hover:text-primary transition-all group"
-                  data-testid="link-facebook"
+                  data-testid="link-linkedin"
                 >
                   <div className="bg-sage/10 p-2 rounded-md group-hover:bg-sage/20 transition-colors">
-                    <Facebook className="h-6 w-6 text-sage" />
+                    <Linkedin className="h-6 w-6 text-sage" />
                   </div>
-                  <span className="font-medium">{content.contact.social.facebook}</span>
+                  <span className="font-medium">{content.contact.social.linkedin}</span>
                 </a>
               </div>
             </div>

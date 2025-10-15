@@ -74,15 +74,15 @@
       "submit": "გაგზავნა"
     },
     "social": {
-      "title": "გაიზიარეთ ჩემი მოგზაურობა",
+      "title": "დამიკავშირდით",
       "instagram": "Instagram",
-      "facebook": "Facebook"
+      "linkedin": "LinkedIn"
     },
     "location": "თბილისი, საქართველო"
   },
   "footer": {
     "tagline": "ხელნაკეთი საქართველოში",
-    "copyright": "© 2025 ნინი | Kosi. ყველა უფლება დაცულია.",
+    "copyright": "© 2025 ნინი ჭალაძე | Kosi. ყველა უფლება დაცულია.",
     "links": {
       "about": "ჩემს შესახებ",
       "portfolio": "პორტფოლიო",

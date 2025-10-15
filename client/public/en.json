@@ -74,15 +74,15 @@
       "submit": "Send Message"
     },
     "social": {
-      "title": "Follow My Journey",
+      "title": "Connect With Me",
       "instagram": "Instagram",
-      "facebook": "Facebook"
+      "linkedin": "LinkedIn"
     },
     "location": "Tbilisi, Georgia"
   },
   "footer": {
     "tagline": "Handcrafted in Georgia",
-    "copyright": "© 2025 Nini | Kosi. All rights reserved.",
+    "copyright": "© 2025 Nini Chaladzè | Kosi. All rights reserved.",
     "links": {
       "about": "About",
       "portfolio": "Portfolio",
