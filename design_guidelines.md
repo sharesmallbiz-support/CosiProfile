@@ -85,7 +85,7 @@ Drawing inspiration from Instagram's visual-first approach, Behance's portfolio 
 - Authentic, personal photography
 
 **Contact Section:**
-- Social links (Instagram, Facebook prominent)
+- Social links (Instagram, LinkedIn prominent)
 - Contact form with minimal styling
 - Georgian location badge/map reference
 
