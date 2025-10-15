@@ -96,7 +96,18 @@ To update content:
 ## Development Commands
 - `npm run dev` - Start development server on port 5000
 - `npm run build` - Build for production
+- `./build-github.sh` - Build static site to `/docs` folder for GitHub Pages
 - Language files are served from `client/public/` folder
+
+## GitHub Pages Deployment
+This is a **100% static site** with no database or backend. To deploy:
+
+1. Run `./build-github.sh` to build static files to `/docs` folder
+2. Commit and push the `/docs` folder to GitHub
+3. Configure GitHub Pages to serve from `/docs` folder on main branch
+4. Site will be live at `https://[username].github.io/[repo-name]`
+
+See `README.md` for detailed deployment instructions.
 
 ## Design Guidelines
 Detailed design specifications are documented in `design_guidelines.md`, including:
