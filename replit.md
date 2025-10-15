@@ -1,7 +1,7 @@
-# Nini | Kosi - Bilingual Profile Website
+# Nini Chaladzè | Kosi - Bilingual Profile Website
 
 ## Project Overview
-A beautiful, modern bilingual static profile website for **Nini**, a Georgian content creator and founder of **Kosi**, a bespoke gifts company. The site showcases handcrafted creations with elegant design and seamless language switching between English and Georgian.
+A beautiful, modern bilingual static profile website for **Nini Chaladzè**, a Georgian content creator and founder of **Kosi**, a bespoke gifts company. The site showcases handcrafted creations with elegant design and seamless language switching between English and Georgian.
 
 ## Features Implemented
 ### Core Functionality
@@ -118,6 +118,12 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - Component specifications and layouts
 - Interaction patterns and animations
 - Accessibility requirements
+
+## Contact Information
+- **Full Name**: Nini Chaladzè
+- **LinkedIn**: https://www.linkedin.com/in/nini-chaladze-425819178/
+- **Instagram**: https://www.instagram.com/ni.chaladze/
+- **Facebook**: Personal use only (not included on website)
 
 ## User Preferences
 - **Language Display**: The site defaults to English but remembers user's language choice
