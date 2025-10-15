@@ -10,6 +10,7 @@ A beautiful, modern bilingual static profile website for **Nini**, Georgian cont
 - 🌓 **Dark/Light Theme** - Complete theme support
 - 🖼️ **Portfolio Gallery** - Masonry layout with lightbox modal
 - ✉️ **Contact Form** - Professional contact section
+- 🏷️ **Build Info** - Footer displays version and build date
 
 ## 🚀 GitHub Pages Deployment
 

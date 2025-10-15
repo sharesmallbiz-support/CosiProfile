@@ -138,6 +138,11 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
   - Implemented hash-based routing to work with GitHub Pages subdirectories
   - Fixed language JSON file paths to use relative URLs (`./en.json` instead of `/en.json`)
   - URLs now use hash fragments (e.g., `/#/`) for compatibility
+- **Added build info to footer**:
+  - Footer now displays version number and build date
+  - Build info is injected at build time using Vite's define feature
+  - Format: "v{version} • Built on {date}"
+  - Helps track deployed versions on GitHub Pages
 
 ## Next Steps (Future Enhancements)
 - Add CMS integration for easier content management

@@ -1,5 +1,19 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 
+// Build info - these are replaced at build time by vite.config.github.ts
+// In development, they default to current values
+let buildVersion = '1.0.0';
+let buildDate = new Date().toISOString().split('T')[0];
+
+try {
+  // @ts-ignore - These are defined at build time
+  if (typeof __BUILD_VERSION__ !== 'undefined') buildVersion = __BUILD_VERSION__;
+  // @ts-ignore - These are defined at build time
+  if (typeof __BUILD_DATE__ !== 'undefined') buildDate = __BUILD_DATE__;
+} catch (e) {
+  // Use defaults in development
+}
+
 export function Footer() {
   const { content } = useLanguage();
 
@@ -63,6 +77,12 @@ export function Footer() {
               {content.footer.copyright}
             </p>
           </div>
+        </div>
+        
+        <div className="border-t border-card-border pt-6 mt-6">
+          <p className="text-xs text-muted-foreground text-center" data-testid="text-footer-build-info">
+            v{buildVersion} • Built on {buildDate}
+          </p>
         </div>
       </div>
     </footer>
