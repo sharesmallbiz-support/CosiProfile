@@ -153,8 +153,9 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - **Updated hero section with new profile photo**:
   - Replaced stock image with Nini's professional portrait (attached_assets/unnamed_1760549168809.jpg)
   - Changed CSS positioning from `bg-center` to `bg-top` to prevent cropping the top of the image
-  - Ensures full portrait is visible on all screen sizes without any head cropping
-  - Tested on desktop and mobile - displays perfectly
+  - Scaled out image using `background-size: contain` to show more of the photo and Nini's full face
+  - Ensures full portrait is visible on all screen sizes without any cropping
+  - Tested on desktop and mobile - displays perfectly with more of the photo visible
 
 ## Next Steps (Future Enhancements)
 - Add CMS integration for easier content management
