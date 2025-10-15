@@ -1,7 +1,7 @@
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import heroImage from '@assets/stock_images/georgian_female_arti_ae49d2cc.jpg';
+import heroImage from '@assets/unnamed_1760549168809.jpg';
 
 export function Hero() {
   const { content } = useLanguage();
@@ -23,7 +23,7 @@ export function Hero() {
   return (
     <section className="relative h-[70vh] min-h-[600px] flex items-center justify-center overflow-hidden">
       <div 
-        className="absolute inset-0 bg-cover bg-center"
+        className="absolute inset-0 bg-cover bg-top"
         style={{ backgroundImage: `url(${heroImage})` }}
       />
       <div className="absolute inset-0 bg-gradient-to-b from-black/40 via-black/30 to-black/50" />
