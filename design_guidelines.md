@@ -1,4 +1,4 @@
-# Design Guidelines for Nini/Cosi Bilingual Profile Site
+# Design Guidelines for Nini/Kosi Bilingual Profile Site
 
 ## Design Approach: Reference-Based (Influencer Portfolio)
 
@@ -69,7 +69,7 @@ Drawing inspiration from Instagram's visual-first approach, Behance's portfolio 
 **Hero Section:**
 - Full-width hero with portrait image of Nini (70vh)
 - Overlay gradient (subtle dark vignette)
-- Centered text: "Nini" + Cosi tagline
+- Centered text: "Nini" + Kosi tagline
 - Dual-language intro text
 - Soft scroll indicator
 

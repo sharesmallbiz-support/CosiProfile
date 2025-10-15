@@ -7,13 +7,13 @@
   "hero": {
     "name": "Nini",
     "tagline": "Creator & Artisan",
-    "company": "Cosi",
+    "company": "Kosi",
     "intro": "Handcrafted bespoke gifts infused with Georgian warmth and artistry",
     "cta": "Explore My Work"
   },
   "about": {
     "title": "About Nini",
-    "bio": "I'm Nini, a Georgian content creator and the founder of Cosi. My passion lies in creating unique, handcrafted gifts that tell stories and celebrate the rich heritage of Georgia. Each piece is thoughtfully designed and crafted with love, bringing warmth and authenticity to every creation.\n\nFrom custom gifts to bespoke artisan pieces, I combine traditional Georgian craftsmanship with contemporary design to create something truly special. Every item is a labor of love, made to bring joy and meaning to those who receive them.",
+    "bio": "I'm Nini, a Georgian content creator and the founder of Kosi. My passion lies in creating unique, handcrafted gifts that tell stories and celebrate the rich heritage of Georgia. Each piece is thoughtfully designed and crafted with love, bringing warmth and authenticity to every creation.\n\nFrom custom gifts to bespoke artisan pieces, I combine traditional Georgian craftsmanship with contemporary design to create something truly special. Every item is a labor of love, made to bring joy and meaning to those who receive them.",
     "mission": "My mission is to share the beauty of Georgian artistry with the world, one handcrafted piece at a time."
   },
   "portfolio": {
@@ -82,7 +82,7 @@
   },
   "footer": {
     "tagline": "Handcrafted in Georgia",
-    "copyright": "© 2025 Nini | Cosi. All rights reserved.",
+    "copyright": "© 2025 Nini | Kosi. All rights reserved.",
     "links": {
       "about": "About",
       "portfolio": "Portfolio",

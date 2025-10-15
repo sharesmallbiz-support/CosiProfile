@@ -1,6 +1,6 @@
-# Nini | Cosi - Bilingual Profile Website
+# Nini | Kosi - Bilingual Profile Website
 
-A beautiful, modern bilingual static profile website for **Nini**, Georgian content creator and founder of **Cosi** bespoke gifts company.
+A beautiful, modern bilingual static profile website for **Nini**, Georgian content creator and founder of **Kosi** bespoke gifts company.
 
 ## 🌟 Features
 
