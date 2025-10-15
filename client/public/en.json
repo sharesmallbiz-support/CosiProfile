@@ -1,0 +1,92 @@
+{
+  "nav": {
+    "about": "About",
+    "portfolio": "Portfolio",
+    "contact": "Contact"
+  },
+  "hero": {
+    "name": "Nini",
+    "tagline": "Creator & Artisan",
+    "company": "Cosi",
+    "intro": "Handcrafted bespoke gifts infused with Georgian warmth and artistry",
+    "cta": "Explore My Work"
+  },
+  "about": {
+    "title": "About Nini",
+    "bio": "I'm Nini, a Georgian content creator and the founder of Cosi. My passion lies in creating unique, handcrafted gifts that tell stories and celebrate the rich heritage of Georgia. Each piece is thoughtfully designed and crafted with love, bringing warmth and authenticity to every creation.\n\nFrom custom gifts to bespoke artisan pieces, I combine traditional Georgian craftsmanship with contemporary design to create something truly special. Every item is a labor of love, made to bring joy and meaning to those who receive them.",
+    "mission": "My mission is to share the beauty of Georgian artistry with the world, one handcrafted piece at a time."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Handcrafted Creations",
+    "filters": {
+      "all": "All",
+      "gifts": "Gifts",
+      "custom": "Custom",
+      "featured": "Featured"
+    },
+    "items": [
+      {
+        "id": 1,
+        "title": "Custom Gift Box",
+        "category": "custom",
+        "description": "Personalized gift boxes with Georgian motifs"
+      },
+      {
+        "id": 2,
+        "title": "Artisan Candles",
+        "category": "gifts",
+        "description": "Hand-poured candles with natural scents"
+      },
+      {
+        "id": 3,
+        "title": "Handwoven Textiles",
+        "category": "featured",
+        "description": "Traditional Georgian patterns"
+      },
+      {
+        "id": 4,
+        "title": "Ceramic Pottery",
+        "category": "gifts",
+        "description": "Handcrafted ceramic pieces"
+      },
+      {
+        "id": 5,
+        "title": "Personalized Cards",
+        "category": "custom",
+        "description": "Custom designed greeting cards"
+      },
+      {
+        "id": 6,
+        "title": "Gift Hampers",
+        "category": "featured",
+        "description": "Curated Georgian product collections"
+      }
+    ]
+  },
+  "contact": {
+    "title": "Get in Touch",
+    "subtitle": "Let's create something special together",
+    "form": {
+      "name": "Your Name",
+      "email": "Email Address",
+      "message": "Tell me about your project",
+      "submit": "Send Message"
+    },
+    "social": {
+      "title": "Follow My Journey",
+      "instagram": "Instagram",
+      "facebook": "Facebook"
+    },
+    "location": "Tbilisi, Georgia"
+  },
+  "footer": {
+    "tagline": "Handcrafted in Georgia",
+    "copyright": "© 2025 Nini | Cosi. All rights reserved.",
+    "links": {
+      "about": "About",
+      "portfolio": "Portfolio",
+      "contact": "Contact"
+    }
+  }
+}
