@@ -3,11 +3,31 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // put application routes here
-  // prefix all routes with /api
+  app.get("/api/products", async (_req, res) => {
+    const products = await storage.getProducts();
+    res.json(products);
+  });
 
-  // use storage to perform CRUD operations on the storage interface
-  // e.g. storage.insertUser(user) or storage.getUserByUsername(username)
+  app.get("/api/products/:id", async (req, res) => {
+    const product = await storage.getProduct(req.params.id);
+    if (!product) {
+      return res.status(404).json({ message: "Product not found" });
+    }
+    res.json(product);
+  });
+
+  app.get("/api/events", async (_req, res) => {
+    const events = await storage.getEvents();
+    res.json(events);
+  });
+
+  app.get("/api/events/:id", async (req, res) => {
+    const event = await storage.getEvent(req.params.id);
+    if (!event) {
+      return res.status(404).json({ message: "Event not found" });
+    }
+    res.json(event);
+  });
 
   const httpServer = createServer(app);
 

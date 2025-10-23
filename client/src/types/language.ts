@@ -1,42 +1,92 @@
 export interface PortfolioItem {
   id: number;
   title: string;
-  category: 'gifts' | 'custom' | 'featured';
+  category: 'kosi' | 'metviton' | 'projects';
   description: string;
 }
 
 export interface LanguageContent {
   nav: {
-    about: string;
-    videos: string;
+    home: string;
+    kosi: string;
+    metviton: string;
     portfolio: string;
+    about: string;
     contact: string;
   };
   hero: {
-    name: string;
-    tagline: string;
     company: string;
-    intro: string;
+    tagline: string;
+    subtitle: string;
     cta: string;
+  };
+  intro: {
+    title: string;
+    description: string;
+  };
+  pillars: {
+    title: string;
+    subtitle: string;
+    kosi: {
+      title: string;
+      description: string;
+      cta: string;
+    };
+    metviton: {
+      title: string;
+      description: string;
+      cta: string;
+    };
+    portfolio: {
+      title: string;
+      description: string;
+      cta: string;
+    };
   };
   about: {
     title: string;
     bio: string;
     mission: string;
   };
-  videos: {
+  kosiPage: {
     title: string;
     subtitle: string;
-    channelLink: string;
+    description: string;
+    categories: {
+      all: string;
+      frames: string;
+      boxes: string;
+      ceramics: string;
+    };
+    cta: string;
+  };
+  metvitonPage: {
+    title: string;
+    subtitle: string;
+    description: string;
+    types: {
+      all: string;
+      lunch: string;
+      networking: string;
+      workshop: string;
+    };
+    cta: string;
+    details: {
+      date: string;
+      location: string;
+      price: string;
+      capacity: string;
+      spotsLeft: string;
+    };
   };
   portfolio: {
     title: string;
     subtitle: string;
     filters: {
       all: string;
-      gifts: string;
-      custom: string;
-      featured: string;
+      kosi: string;
+      metviton: string;
+      projects: string;
     };
     items: PortfolioItem[];
   };
@@ -61,8 +111,9 @@ export interface LanguageContent {
     tagline: string;
     copyright: string;
     links: {
+      kosi: string;
+      metviton: string;
       about: string;
-      portfolio: string;
       contact: string;
     };
   };
