@@ -48,12 +48,11 @@ export function Portfolio() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {(['all', 'gifts', 'custom', 'featured'] as const).map((filter) => (
+          {(['all', 'kosi', 'metviton', 'projects'] as const).map((filter) => (
             <Button
               key={filter}
               variant={activeFilter === filter ? 'default' : 'outline'}
               onClick={() => setActiveFilter(filter)}
-              className={activeFilter === filter ? '' : 'hover:border-sage hover:text-sage'}
               data-testid={`button-filter-${filter}`}
             >
               {content.portfolio.filters[filter]}

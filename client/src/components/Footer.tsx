@@ -1,14 +1,13 @@
 import { useLanguage } from '@/contexts/LanguageContext';
+import { Link } from 'wouter';
 
-// Build info - these are replaced at build time by vite.config.github.ts
-// In development, they default to current values
 let buildVersion = '1.0.0';
 let buildDate = new Date().toISOString().split('T')[0];
 
 try {
-  // @ts-ignore - These are defined at build time
+  // @ts-ignore
   if (typeof __BUILD_VERSION__ !== 'undefined') buildVersion = __BUILD_VERSION__;
-  // @ts-ignore - These are defined at build time
+  // @ts-ignore
   if (typeof __BUILD_DATE__ !== 'undefined') buildDate = __BUILD_DATE__;
 } catch (e) {
   // Use defaults in development
@@ -41,26 +40,35 @@ export function Footer() {
             </h3>
             <p className="text-muted-foreground flex items-center gap-2" data-testid="text-footer-tagline">
               {content.footer.tagline}
-              <span className="inline-block text-sage">🇬🇪</span>
+              <span className="inline-block">🇬🇪</span>
             </p>
           </div>
 
           <div>
             <h4 className="font-semibold mb-4" data-testid="text-footer-links-title">Quick Links</h4>
             <div className="space-y-2">
+              <Link href="/kosi">
+                <button
+                  className="block text-muted-foreground hover:text-primary transition-colors"
+                  data-testid="link-footer-kosi"
+                >
+                  {content.footer.links.kosi}
+                </button>
+              </Link>
+              <Link href="/metviton">
+                <button
+                  className="block text-muted-foreground hover:text-primary transition-colors"
+                  data-testid="link-footer-metviton"
+                >
+                  {content.footer.links.metviton}
+                </button>
+              </Link>
               <button
                 onClick={() => scrollToSection('about')}
                 className="block text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-footer-about"
               >
                 {content.footer.links.about}
-              </button>
-              <button
-                onClick={() => scrollToSection('portfolio')}
-                className="block text-muted-foreground hover:text-primary transition-colors"
-                data-testid="link-footer-portfolio"
-              >
-                {content.footer.links.portfolio}
               </button>
               <button
                 onClick={() => scrollToSection('contact')}

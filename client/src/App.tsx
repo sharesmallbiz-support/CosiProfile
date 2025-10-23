@@ -7,6 +7,8 @@ import { TooltipProvider } from "@/components/ui/tooltip";
 import { ThemeProvider } from "@/components/ThemeProvider";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import Home from "@/pages/Home";
+import Kosi from "@/pages/Kosi";
+import Metviton from "@/pages/Metviton";
 import NotFound from "@/pages/not-found";
 
 function Router() {
@@ -15,6 +17,10 @@ function Router() {
       <Switch>
         <Route path="/" component={Home} />
         <Route path="/~/" component={Home} />
+        <Route path="/kosi" component={Kosi} />
+        <Route path="/~/kosi" component={Kosi} />
+        <Route path="/metviton" component={Metviton} />
+        <Route path="/~/metviton" component={Metviton} />
         <Route component={NotFound} />
       </Switch>
     </WouterRouter>

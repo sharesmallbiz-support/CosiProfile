@@ -1,98 +1,149 @@
 {
   "nav": {
-    "about": "About",
-    "videos": "Videos",
+    "home": "Home",
+    "kosi": "Kosi.gifts",
+    "metviton": "Metviton",
     "portfolio": "Portfolio",
+    "about": "About",
     "contact": "Contact"
   },
   "hero": {
-    "name": "Nini",
-    "tagline": "Creator & Artisan",
-    "company": "Kosi",
-    "intro": "Handcrafted bespoke gifts infused with Georgian warmth and artistry",
-    "cta": "Explore My Work"
+    "company": "niniverse",
+    "tagline": "Georgian Heritage Meets Contemporary Vision",
+    "subtitle": "A refined platform celebrating authentic Georgian craftsmanship, meaningful connections, and entrepreneurial spirit",
+    "cta": "Explore My World"
+  },
+  "intro": {
+    "title": "Welcome to Niniverse",
+    "description": "A carefully curated ecosystem where tradition meets modernity. From personalized gifts that tell stories to community experiences that foster growth, everything in the Niniverse is crafted with intention, authenticity, and heart."
+  },
+  "pillars": {
+    "title": "Three Worlds, One Vision",
+    "subtitle": "Explore the pillars of the Niniverse",
+    "kosi": {
+      "title": "Kosi.gifts",
+      "description": "Personalized gifts that tell stories. Each piece is thoughtfully designed and handcrafted to bring warmth, authenticity, and joy to your loved ones.",
+      "cta": "Browse Gifts"
+    },
+    "metviton": {
+      "title": "Metviton",
+      "description": "A community for ambitious women. Connect, grow, and celebrate through business lunches, networking events, and meaningful workshops.",
+      "cta": "Join Community"
+    },
+    "portfolio": {
+      "title": "Projects & Experience",
+      "description": "Discover my journey through various creative projects, collaborations, and professional experiences that shape the Niniverse.",
+      "cta": "View Portfolio"
+    }
   },
   "about": {
     "title": "About Nini",
-    "bio": "I'm Nini, a Georgian content creator and the founder of Kosi. My passion lies in creating unique, handcrafted gifts that tell stories and celebrate the rich heritage of Georgia. Each piece is thoughtfully designed and crafted with love, bringing warmth and authenticity to every creation.\n\nFrom custom gifts to bespoke artisan pieces, I combine traditional Georgian craftsmanship with contemporary design to create something truly special. Every item is a labor of love, made to bring joy and meaning to those who receive them.",
-    "mission": "My mission is to share the beauty of Georgian artistry with the world, one handcrafted piece at a time."
+    "bio": "I'm Nini Chaladze, a Georgian entrepreneur passionate about celebrating authentic craftsmanship and building meaningful communities. Through Kosi.gifts and Metviton, I create spaces where tradition meets contemporary vision.\n\nMy work is rooted in the belief that every piece should tell a story, every connection should be intentional, and every experience should inspire growth.",
+    "mission": "Handcrafted moments. Connected communities. Authentic stories from Georgia to the world."
   },
-  "videos": {
-    "title": "Videos",
-    "subtitle": "Watch My Creative Journey",
-    "channelLink": "View All Videos"
+  "kosiPage": {
+    "title": "Kosi.gifts",
+    "subtitle": "Personalized Handcrafted Gifts",
+    "description": "Each piece in our collection is thoughtfully designed and handcrafted by Georgian artisans. From custom photo frames to curated gift boxes, every item carries a story and celebrates the beauty of authentic craftsmanship.",
+    "categories": {
+      "all": "All Products",
+      "frames": "Frames",
+      "boxes": "Gift Boxes",
+      "ceramics": "Ceramics"
+    },
+    "cta": "Order Custom Gift"
+  },
+  "metvitonPage": {
+    "title": "Metviton",
+    "subtitle": "Where Ambitious Women Connect",
+    "description": "Metviton is more than networking—it's a community. Join us for business lunches, networking events, and workshops designed to foster meaningful connections and professional growth.",
+    "types": {
+      "all": "All Events",
+      "lunch": "Business Lunches",
+      "networking": "Networking",
+      "workshop": "Workshops"
+    },
+    "cta": "Register Now",
+    "details": {
+      "date": "Date",
+      "location": "Location",
+      "price": "Price",
+      "capacity": "Capacity",
+      "spotsLeft": "spots left"
+    }
   },
   "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Handcrafted Creations",
+    "title": "Portfolio & Projects",
+    "subtitle": "Explore my creative journey",
     "filters": {
       "all": "All",
-      "gifts": "Gifts",
-      "custom": "Custom",
-      "featured": "Featured"
+      "kosi": "Kosi Projects",
+      "metviton": "Metviton Events",
+      "projects": "Other Projects"
     },
     "items": [
       {
         "id": 1,
-        "title": "Custom Gift Box",
-        "category": "custom",
-        "description": "Personalized gift boxes with Georgian motifs"
+        "title": "Custom Wedding Gift Collection",
+        "category": "kosi",
+        "description": "Curated personalized gifts for weddings, celebrating love and new beginnings"
       },
       {
         "id": 2,
-        "title": "Artisan Candles",
-        "category": "gifts",
-        "description": "Hand-poured candles with natural scents"
+        "title": "Handcrafted Ceramic Series",
+        "category": "kosi",
+        "description": "Unique ceramic pieces by Georgian artisans with custom engravings"
       },
       {
         "id": 3,
-        "title": "Handwoven Textiles",
-        "category": "featured",
-        "description": "Traditional Georgian patterns"
+        "title": "Women in Tech Networking",
+        "category": "metviton",
+        "description": "Monthly networking event connecting women leaders in technology"
       },
       {
         "id": 4,
-        "title": "Ceramic Pottery",
-        "category": "gifts",
-        "description": "Handcrafted ceramic pieces"
+        "title": "Business Leadership Workshop",
+        "category": "metviton",
+        "description": "Interactive workshop on modern leadership strategies"
       },
       {
         "id": 5,
-        "title": "Personalized Cards",
-        "category": "custom",
-        "description": "Custom designed greeting cards"
+        "title": "Brand Collaboration Project",
+        "category": "projects",
+        "description": "Strategic partnership celebrating Georgian craftsmanship"
       },
       {
         "id": 6,
-        "title": "Gift Hampers",
-        "category": "featured",
-        "description": "Curated Georgian product collections"
+        "title": "Community Building Initiative",
+        "category": "projects",
+        "description": "Creating spaces for authentic connections and growth"
       }
     ]
   },
   "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Let's create something special together",
+    "title": "Let's Connect",
+    "subtitle": "Whether you're interested in personalized gifts, joining our community, or collaborating on a project, I'd love to hear from you.",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
-      "message": "Tell me about your project",
+      "message": "Your Message",
       "submit": "Send Message"
     },
     "social": {
-      "title": "Connect With Me",
-      "instagram": "Instagram",
-      "linkedin": "LinkedIn",
-      "youtube": "YouTube"
+      "title": "Follow Along",
+      "instagram": "@niniverse",
+      "linkedin": "Nini Chaladze",
+      "youtube": "Niniverse Channel"
     },
     "location": "Tbilisi, Georgia"
   },
   "footer": {
-    "tagline": "Handcrafted in Georgia",
-    "copyright": "© 2025 Nini Chaladzè | Kosi. All rights reserved.",
+    "tagline": "Georgian Heritage Meets Contemporary Vision",
+    "copyright": "© 2025 Niniverse. Crafted with intention.",
     "links": {
+      "kosi": "Kosi.gifts",
+      "metviton": "Metviton",
       "about": "About",
-      "portfolio": "Portfolio",
       "contact": "Contact"
     }
   }

@@ -3,12 +3,14 @@ import { Moon, Sun, Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useTheme } from 'next-themes';
+import { Link, useLocation } from 'wouter';
 
 export function Header() {
   const { language, setLanguage, content } = useLanguage();
   const { theme, setTheme } = useTheme();
   const [isScrolled, setIsScrolled] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const [location] = useLocation();
 
   useEffect(() => {
     const handleScroll = () => {
@@ -34,6 +36,8 @@ export function Header() {
 
   if (!content) return null;
 
+  const isHomePage = location === '/' || location === '/~/';
+
   return (
     <header
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
@@ -42,43 +46,60 @@ export function Header() {
     >
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
-          <button
-            onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-            className="font-serif text-2xl font-bold hover-elevate active-elevate-2 rounded-md px-2 py-1 transition-colors"
-            data-testid="button-logo"
-          >
-            {content.hero.company}
-          </button>
+          <Link href="/">
+            <button
+              onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
+              className="font-serif text-2xl font-bold hover-elevate active-elevate-2 rounded-md px-2 py-1 transition-colors"
+              data-testid="button-logo"
+            >
+              {content.hero.company}
+            </button>
+          </Link>
 
-          <nav className="hidden md:flex items-center gap-8">
-            <button
-              onClick={() => scrollToSection('about')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              data-testid="link-about"
-            >
-              {content.nav.about}
-            </button>
-            <button
-              onClick={() => scrollToSection('videos')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              data-testid="link-videos"
-            >
-              {content.nav.videos}
-            </button>
-            <button
-              onClick={() => scrollToSection('portfolio')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              data-testid="link-portfolio"
-            >
-              {content.nav.portfolio}
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-foreground hover:text-primary transition-colors font-medium"
-              data-testid="link-contact"
-            >
-              {content.nav.contact}
-            </button>
+          <nav className="hidden md:flex items-center gap-6">
+            {isHomePage ? (
+              <>
+                <button
+                  onClick={() => scrollToSection('about')}
+                  className="text-foreground hover:text-primary transition-colors font-medium"
+                  data-testid="link-about"
+                >
+                  {content.nav.about}
+                </button>
+                <button
+                  onClick={() => scrollToSection('portfolio')}
+                  className="text-foreground hover:text-primary transition-colors font-medium"
+                  data-testid="link-portfolio"
+                >
+                  {content.nav.portfolio}
+                </button>
+                <button
+                  onClick={() => scrollToSection('contact')}
+                  className="text-foreground hover:text-primary transition-colors font-medium"
+                  data-testid="link-contact"
+                >
+                  {content.nav.contact}
+                </button>
+              </>
+            ) : (
+              <>
+                <Link href="/">
+                  <button className="text-foreground hover:text-primary transition-colors font-medium" data-testid="link-home">
+                    {content.nav.home}
+                  </button>
+                </Link>
+                <Link href="/kosi">
+                  <button className="text-foreground hover:text-primary transition-colors font-medium" data-testid="link-kosi">
+                    {content.nav.kosi}
+                  </button>
+                </Link>
+                <Link href="/metviton">
+                  <button className="text-foreground hover:text-primary transition-colors font-medium" data-testid="link-metviton">
+                    {content.nav.metviton}
+                  </button>
+                </Link>
+              </>
+            )}
           </nav>
 
           <div className="flex items-center gap-3">
@@ -115,34 +136,49 @@ export function Header() {
 
         {isMobileMenuOpen && (
           <nav className="md:hidden mt-4 pb-4 flex flex-col gap-4 border-t border-border pt-4">
-            <button
-              onClick={() => scrollToSection('about')}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-              data-testid="link-about-mobile"
-            >
-              {content.nav.about}
-            </button>
-            <button
-              onClick={() => scrollToSection('videos')}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-              data-testid="link-videos-mobile"
-            >
-              {content.nav.videos}
-            </button>
-            <button
-              onClick={() => scrollToSection('portfolio')}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-              data-testid="link-portfolio-mobile"
-            >
-              {content.nav.portfolio}
-            </button>
-            <button
-              onClick={() => scrollToSection('contact')}
-              className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
-              data-testid="link-contact-mobile"
-            >
-              {content.nav.contact}
-            </button>
+            {isHomePage ? (
+              <>
+                <button
+                  onClick={() => scrollToSection('about')}
+                  className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+                  data-testid="link-about-mobile"
+                >
+                  {content.nav.about}
+                </button>
+                <button
+                  onClick={() => scrollToSection('portfolio')}
+                  className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+                  data-testid="link-portfolio-mobile"
+                >
+                  {content.nav.portfolio}
+                </button>
+                <button
+                  onClick={() => scrollToSection('contact')}
+                  className="text-left text-foreground hover:text-primary transition-colors font-medium py-2"
+                  data-testid="link-contact-mobile"
+                >
+                  {content.nav.contact}
+                </button>
+              </>
+            ) : (
+              <>
+                <Link href="/">
+                  <button className="text-left text-foreground hover:text-primary transition-colors font-medium py-2 w-full" data-testid="link-home-mobile">
+                    {content.nav.home}
+                  </button>
+                </Link>
+                <Link href="/kosi">
+                  <button className="text-left text-foreground hover:text-primary transition-colors font-medium py-2 w-full" data-testid="link-kosi-mobile">
+                    {content.nav.kosi}
+                  </button>
+                </Link>
+                <Link href="/metviton">
+                  <button className="text-left text-foreground hover:text-primary transition-colors font-medium py-2 w-full" data-testid="link-metviton-mobile">
+                    {content.nav.metviton}
+                  </button>
+                </Link>
+              </>
+            )}
           </nav>
         )}
       </div>
