@@ -48,7 +48,7 @@ export function Portfolio() {
         </div>
 
         <div className="flex flex-wrap justify-center gap-3 mb-12">
-          {(['all', 'kosi', 'metviton', 'projects'] as const).map((filter) => (
+          {(['all', 'gifts', 'custom', 'featured'] as const).map((filter) => (
             <Button
               key={filter}
               variant={activeFilter === filter ? 'default' : 'outline'}
