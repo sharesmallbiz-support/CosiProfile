@@ -146,16 +146,20 @@ The **Niniverse** brand focuses on:
 
 ## Recent Changes (October 27, 2025)
 - **Complete Niniverse Rebrand**: Transformed from product-focused "Kosi" to education/storytelling-focused "Niniverse"
-  - Updated hero tagline from "Creator & Artisan" to "Visual Storyteller & Educator"
-  - Rewrote hero intro to emphasize visual education, storytelling, and inspiration
-  - Transformed portfolio from physical products to creative projects:
+  - **Site Title**: Changed from "Nini Chaladzè | Kosi" to simply "Niniverse"
+  - **Meta Tags**: Updated all meta descriptions and OG tags to reflect Niniverse brand
+  - **Company Name**: Changed hero.company from "Nini" to "Niniverse" in both language files
+  - **Hero Section**: Updated tagline to "Visual Storyteller & Educator" and rewrote intro
+  - **Portfolio Section**: Transformed from physical products to creative projects:
     - "Visual Education" filter (masterclasses, workshops, lessons)
     - "Creative Projects" filter (collaborations, brand photography)
     - "Featured Work" filter (documentaries, student success stories)
-  - Updated contact section to emphasize connection, learning, and collaboration
-  - Changed footer tagline from "Handcrafted in Georgia" to "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision"
-- **Fixed Portfolio Navigation**: Corrected filter button labels to match JSON data (gifts/custom/featured)
-- All content now aligned with warm, sincere, educational tone
+  - **Contact Section**: Emphasized connection, learning, and collaboration
+  - **Footer**: Changed tagline to "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision"
+  - **Navigation**: Cleaned up footer to remove old page links, now only single-page sections
+  - **Cleanup**: Removed all legacy Kosi component files and unused folders
+- **Fixed Portfolio Navigation**: Corrected filter button labels to match JSON data
+- All content now aligned with warm, sincere, educational tone focused on visual storytelling
 
 ### Previous Updates (October 15, 2025)
 - Initial build completed with all MVP features
