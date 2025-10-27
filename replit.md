@@ -1,7 +1,7 @@
-# Nini Chaladzè | Kosi - Bilingual Profile Website
+# Nini Chaladzè | Niniverse - Bilingual Profile Website
 
 ## Project Overview
-A beautiful, modern bilingual static profile website for **Nini Chaladzè**, a Georgian content creator and founder of **Kosi**, a bespoke gifts company. The site showcases handcrafted creations with elegant design and seamless language switching between English and Georgian.
+A beautiful, modern bilingual static profile website for **Nini Chaladzè**, a Georgian visual storyteller, educator, and content creator. The site showcases her **Niniverse** brand—a personal universe focused on visual education, creative storytelling, and authentic inspiration with elegant design and seamless language switching between English and Georgian.
 
 ## Features Implemented
 ### Core Functionality
@@ -12,12 +12,12 @@ A beautiful, modern bilingual static profile website for **Nini Chaladzè**, a G
 - ✅ **Language Persistence**: Language preference saved in localStorage
 
 ### Sections
-1. **Hero Section**: Full-width background with Nini's portrait, name, tagline, and call-to-action
-2. **About Section**: Bio with workspace image, mission statement, and personal story
-3. **Videos Section**: YouTube channel embed showcasing latest content and creative journey
-4. **Portfolio Gallery**: Masonry layout with category filters (All, Gifts, Custom, Featured) and lightbox modal
-5. **Contact Section**: Contact form, social media links (Instagram, LinkedIn, YouTube), and location badge
-6. **Footer**: Company info, quick links, copyright, and Georgian flag tagline
+1. **Hero Section**: Full-width background with Nini's portrait, "Visual Storyteller & Educator" tagline, and inspiring intro about beauty meeting meaning
+2. **About Section**: Bio with workspace image, mission statement focusing on visual education and authentic storytelling
+3. **Videos Section**: YouTube channel embed showcasing creative journey and educational content
+4. **Portfolio Gallery**: Masonry layout with category filters (All, Visual Education, Creative Projects, Featured Work) showcasing masterclasses, collaborations, and professional work
+5. **Contact Section**: Connection-focused form emphasizing education, collaboration, and community
+6. **Footer**: Inspirational tagline "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision"
 
 ## Design System
 ### Color Palette
@@ -132,7 +132,32 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - **Navigation**: Smooth scroll behavior with visual feedback
 - **Animations**: Subtle, elegant transitions - no distracting motion
 
-## Recent Changes (October 15, 2025)
+## Brand Strategy
+The **Niniverse** brand focuses on:
+- **Visual Education**: Masterclasses, tips, and lessons on visual storytelling and strategy
+- **Creative Journey**: Nini's professional path, experiences, and behind-the-scenes insights
+- **Mindful Work**: Routines, organization, and creative productivity
+- **Projects & Portfolio**: Professional works, collaborations, and student success stories
+- **Lifestyle & Calm**: Everyday inspiration, mindfulness, and balance
+
+**Tone**: Warm yet ambitious, stylish yet grounded, quietly inspiring—never pretentious
+
+**Positioning**: Visual storyteller and educator who celebrates Georgian heritage while embracing contemporary vision
+
+## Recent Changes (October 27, 2025)
+- **Complete Niniverse Rebrand**: Transformed from product-focused "Kosi" to education/storytelling-focused "Niniverse"
+  - Updated hero tagline from "Creator & Artisan" to "Visual Storyteller & Educator"
+  - Rewrote hero intro to emphasize visual education, storytelling, and inspiration
+  - Transformed portfolio from physical products to creative projects:
+    - "Visual Education" filter (masterclasses, workshops, lessons)
+    - "Creative Projects" filter (collaborations, brand photography)
+    - "Featured Work" filter (documentaries, student success stories)
+  - Updated contact section to emphasize connection, learning, and collaboration
+  - Changed footer tagline from "Handcrafted in Georgia" to "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision"
+- **Fixed Portfolio Navigation**: Corrected filter button labels to match JSON data (gifts/custom/featured)
+- All content now aligned with warm, sincere, educational tone
+
+### Previous Updates (October 15, 2025)
 - Initial build completed with all MVP features
 - Implemented bilingual language system with smooth transitions
 - Added dark/light theme support
@@ -166,6 +191,8 @@ Detailed design specifications are documented in `design_guidelines.md`, includi
 - Optimize for SEO with structured data
 
 ## Notes
-- All images are high-quality stock photos from the assets folder
+- Hero uses Nini's actual portrait photo (attached_assets/unnamed_1760549168809.jpg)
+- Portfolio items showcase creative/educational work aligned with Niniverse brand
 - Contact form currently shows success toast without backend submission (can be connected to email service in future)
-- Site is optimized for GitHub mobile editing workflow as requested
+- Site is optimized for GitHub mobile editing workflow via JSON files
+- All content reflects the Niniverse brand strategy: visual education, authenticity, and inspiration
