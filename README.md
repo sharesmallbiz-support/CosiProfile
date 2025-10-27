@@ -39,7 +39,7 @@ A beautiful, modern bilingual static profile website for **Nini Chaladzè**, Geo
 
 4. **Your site will be live** at: `https://[your-username].github.io/[repo-name]`
    
-   Note: The site uses hash-based routing (URLs will have `#/` like `https://your-site.github.io/CosiProfile/#/`). This ensures the app works correctly on GitHub Pages subdirectories.
+   Note: The site uses hash-based routing (URLs will have `#/` like `https://your-site.github.io/niniverse/#/`). This ensures the app works correctly on GitHub Pages subdirectories.
 
 ### Updating Content
 
