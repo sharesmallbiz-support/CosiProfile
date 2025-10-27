@@ -7,10 +7,10 @@
   },
   "hero": {
     "name": "Nini",
-    "tagline": "Creator & Artisan",
+    "tagline": "Visual Storyteller & Educator",
     "company": "Nini",
-    "intro": "Handcrafted bespoke gifts infused with Georgian warmth and artistry",
-    "cta": "Explore My Work"
+    "intro": "A calm, inspiring space where beauty meets meaning—sharing visual education, creative storytelling, and authentic inspiration",
+    "cta": "Explore My World"
   },
   "about": {
     "title": "About Nini",
@@ -24,63 +24,63 @@
   },
   "portfolio": {
     "title": "Portfolio",
-    "subtitle": "Handcrafted Creations",
+    "subtitle": "Creative Projects & Visual Work",
     "filters": {
       "all": "All",
-      "gifts": "Gifts",
-      "custom": "Custom",
-      "featured": "Featured"
+      "gifts": "Visual Education",
+      "custom": "Creative Projects",
+      "featured": "Featured Work"
     },
     "items": [
       {
         "id": 1,
-        "title": "Custom Gift Box",
-        "category": "custom",
-        "description": "Personalized gift boxes with Georgian motifs"
+        "title": "Visual Strategy Masterclass",
+        "category": "gifts",
+        "description": "Comprehensive course on visual storytelling and content creation for aspiring creators"
       },
       {
         "id": 2,
-        "title": "Artisan Candles",
-        "category": "gifts",
-        "description": "Hand-poured candles with natural scents"
+        "title": "Brand Photography Series",
+        "category": "custom",
+        "description": "Authentic visual storytelling for Georgian artisan brands"
       },
       {
         "id": 3,
-        "title": "Ceramic Vases",
+        "title": "Creative Journey Documentary",
         "category": "featured",
-        "description": "Handmade ceramic pieces with traditional patterns"
+        "description": "Behind-the-scenes look at building a creative career with intention and authenticity"
       },
       {
         "id": 4,
-        "title": "Woven Textiles",
+        "title": "Composition & Lighting Workshop",
         "category": "gifts",
-        "description": "Traditional Georgian textile crafts"
+        "description": "Hands-on education for creating aesthetically meaningful visual content"
       },
       {
         "id": 5,
-        "title": "Personalized Cards",
+        "title": "Content Creator Collaboration",
         "category": "custom",
-        "description": "Custom designed greeting cards"
+        "description": "Strategic partnership celebrating Georgian heritage through modern visual storytelling"
       },
       {
         "id": 6,
-        "title": "Gift Hampers",
+        "title": "Student Success Stories",
         "category": "featured",
-        "description": "Curated Georgian product collections"
+        "description": "Showcasing the creative growth and achievements of masterclass participants"
       }
     ]
   },
   "contact": {
-    "title": "Get in Touch",
-    "subtitle": "Let's create something special together",
+    "title": "Let's Connect",
+    "subtitle": "Whether you're seeking visual education, creative collaboration, or simply want to connect—I'd love to hear from you",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
-      "message": "Tell me about your project",
+      "message": "Share your story or question",
       "submit": "Send Message"
     },
     "social": {
-      "title": "Connect With Me",
+      "title": "Follow Along",
       "instagram": "Instagram",
       "linkedin": "LinkedIn",
       "youtube": "YouTube"
@@ -88,7 +88,7 @@
     "location": "Tbilisi, Georgia"
   },
   "footer": {
-    "tagline": "Handcrafted in Georgia",
+    "tagline": "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision",
     "copyright": "© 2025 Nini Chaladzè. All rights reserved.",
     "links": {
       "about": "About",
