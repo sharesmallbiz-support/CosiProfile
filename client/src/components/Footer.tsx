@@ -1,5 +1,4 @@
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Link } from 'wouter';
 
 let buildVersion = '1.0.0';
 let buildDate = new Date().toISOString().split('T')[0];
@@ -47,28 +46,19 @@ export function Footer() {
           <div>
             <h4 className="font-semibold mb-4" data-testid="text-footer-links-title">Quick Links</h4>
             <div className="space-y-2">
-              <Link href="/kosi">
-                <button
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                  data-testid="link-footer-kosi"
-                >
-                  {content.footer.links.kosi}
-                </button>
-              </Link>
-              <Link href="/metviton">
-                <button
-                  className="block text-muted-foreground hover:text-primary transition-colors"
-                  data-testid="link-footer-metviton"
-                >
-                  {content.footer.links.metviton}
-                </button>
-              </Link>
               <button
                 onClick={() => scrollToSection('about')}
                 className="block text-muted-foreground hover:text-primary transition-colors"
                 data-testid="link-footer-about"
               >
                 {content.footer.links.about}
+              </button>
+              <button
+                onClick={() => scrollToSection('portfolio')}
+                className="block text-muted-foreground hover:text-primary transition-colors"
+                data-testid="link-footer-portfolio"
+              >
+                {content.footer.links.portfolio}
               </button>
               <button
                 onClick={() => scrollToSection('contact')}

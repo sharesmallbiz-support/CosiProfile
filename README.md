@@ -1,6 +1,6 @@
-# Nini | Kosi - Bilingual Profile Website
+# Nini | Niniverse - Bilingual Profile Website
 
-A beautiful, modern bilingual static profile website for **Nini**, Georgian content creator and founder of **Kosi** bespoke gifts company.
+A beautiful, modern bilingual static profile website for **Nini Chaladzè**, Georgian visual storyteller and educator showcasing her **Niniverse** brand focused on visual education, creative storytelling, and authentic inspiration.
 
 ## 🌟 Features
 
