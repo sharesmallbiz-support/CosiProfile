@@ -8,7 +8,7 @@
   "hero": {
     "name": "Nini",
     "tagline": "Creator & Artisan",
-    "company": "Kosi",
+    "company": "Nini",
     "intro": "Handcrafted bespoke gifts infused with Georgian warmth and artistry",
     "cta": "Explore My Work"
   },
@@ -46,15 +46,15 @@
       },
       {
         "id": 3,
-        "title": "Handwoven Textiles",
+        "title": "Ceramic Vases",
         "category": "featured",
-        "description": "Traditional Georgian patterns"
+        "description": "Handmade ceramic pieces with traditional patterns"
       },
       {
         "id": 4,
-        "title": "Ceramic Pottery",
+        "title": "Woven Textiles",
         "category": "gifts",
-        "description": "Handcrafted ceramic pieces"
+        "description": "Traditional Georgian textile crafts"
       },
       {
         "id": 5,
@@ -89,7 +89,7 @@
   },
   "footer": {
     "tagline": "Handcrafted in Georgia",
-    "copyright": "© 2025 Nini Chaladzè | Kosi. All rights reserved.",
+    "copyright": "© 2025 Nini Chaladzè. All rights reserved.",
     "links": {
       "about": "About",
       "portfolio": "Portfolio",
