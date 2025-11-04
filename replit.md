@@ -194,6 +194,12 @@ The **Niniverse** brand focuses on:
 - Add analytics integration to track visitor engagement
 - Optimize for SEO with structured data
 
+## Documentation
+- **TECHNICAL_SPECIFICATION.md**: Complete business and technical specification document covering architecture, features, deployment, and roadmap
+- **design_guidelines.md**: Detailed design system with colors, typography, and component specifications
+- **README.md**: Deployment instructions and quick start guide
+- **replit.md**: Project overview, features, and change history (this file)
+
 ## Notes
 - Hero uses Nini's actual portrait photo (attached_assets/unnamed_1760549168809.jpg)
 - Portfolio items showcase creative/educational work aligned with Niniverse brand
