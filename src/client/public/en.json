@@ -6,16 +6,19 @@
     "contact": "Contact"
   },
   "hero": {
-    "name": "Nini",
-    "tagline": "Visual Storyteller & Educator",
+    "name": "Nini Chaladze",
+    "tagline": "Conceptual Strategist of the Visual Future of Brands",
     "company": "Niniverse",
-    "intro": "A calm, inspiring space where beauty meets meaning—sharing visual education, creative storytelling, and authentic inspiration",
-    "cta": "Explore My World"
+    "subtitle": "Co-founder and Creative Director of Metvitoni — From Visionary Creator to Global Architect",
+    "intro": "Creating systems where meaning and aesthetics together build a conscious culture",
+    "cta": "Discover the Vision"
   },
   "about": {
-    "title": "About Nini",
-    "bio": "Welcome to my personal universe—a calm, inspiring space where beauty meets meaning and authenticity. I'm Nini, a Georgian visual storyteller, content creator, and educator passionate about sharing the art of thoughtful creation.\n\nMy work brings together creativity, professional experience, and inspiration through visual education, authentic storytelling, and aesthetic exploration. From masterclasses in visual strategy to sharing my creative journey, I create with intention—celebrating Georgian heritage while embracing contemporary vision.",
-    "mission": "I believe beauty and emotion live in every detail. My mission is to inspire you to follow your own creative path with grace, warmth, and authenticity."
+    "title": "Vision & Philosophy",
+    "bio": "Nini creates spaces where business, creativity, and consciousness merge. She demonstrates that beauty is not a superficial trait but a form of thinking — a mindset that shapes systems, cultures, and human connections.\n\nAs a conceptual strategist of the visual future of brands, Nini develops methods that integrate brand vision development — from idea to living identity; visual strategy — transforming meaning through form, environment, and emotional atmosphere; and creative education — developing individuals and teams who create consciously.\n\nHer work is guided by four archetypes: The Creator who shapes thought through form, The Sage who teaches conscious perception, The Visionary who builds systems where ideas become realities, and The Alchemist who merges intuition and strategy to create balance between reason and emotion.",
+    "mission": "To build a global culture where brands think consciously, speak the language of aesthetics, and act with humanity.",
+    "vision": "To create a culture where creativity becomes the language of consciousness.",
+    "manifesto": "I believe that real change begins with courage. I create spaces where thought and beauty share equal importance. My mission is simple — to help people recognize the strength and beauty within their own vision. Because when one becomes aware of their value, they act with unstoppable intention."
   },
   "videos": {
     "title": "Videos",
@@ -23,64 +26,64 @@
     "channelLink": "View All Videos"
   },
   "portfolio": {
-    "title": "Portfolio",
-    "subtitle": "Creative Projects & Visual Work",
+    "title": "Brand Ecosystem",
+    "subtitle": "Building a Culture of Conscious Creation",
     "filters": {
       "all": "All",
-      "gifts": "Visual Education",
-      "custom": "Creative Projects",
-      "featured": "Featured Work"
+      "gifts": "Creative Education",
+      "custom": "Visual Strategy",
+      "featured": "Brand Culture"
     },
     "items": [
       {
         "id": 1,
-        "title": "Visual Strategy Masterclass",
-        "category": "gifts",
-        "description": "Comprehensive course on visual storytelling and content creation for aspiring creators"
+        "title": "Metvitoni",
+        "category": "featured",
+        "description": "Conscious business culture — building brands that think with intention and act with humanity"
       },
       {
         "id": 2,
-        "title": "Brand Photography Series",
-        "category": "custom",
-        "description": "Authentic visual storytelling for Georgian artisan brands"
+        "title": "Creative Education",
+        "category": "gifts",
+        "description": "Teaching vision and thought — developing individuals who create consciously and perceive beauty as a form of thinking"
       },
       {
         "id": 3,
-        "title": "Creative Journey Documentary",
-        "category": "featured",
-        "description": "Behind-the-scenes look at building a creative career with intention and authenticity"
+        "title": "Visual Strategy Studio",
+        "category": "custom",
+        "description": "Brand strategy and narrative development — transforming ideas into living identities through form, environment, and emotional atmosphere"
       },
       {
         "id": 4,
-        "title": "Composition & Lighting Workshop",
-        "category": "gifts",
-        "description": "Hands-on education for creating aesthetically meaningful visual content"
+        "title": "Vision Community",
+        "category": "featured",
+        "description": "A space for vision creators — uniting people who create consciously and live aesthetically"
       },
       {
         "id": 5,
-        "title": "Content Creator Collaboration",
+        "title": "Brand Vision Development",
         "category": "custom",
-        "description": "Strategic partnership celebrating Georgian heritage through modern visual storytelling"
+        "description": "From idea to living identity — creating systems where meaning and aesthetics build conscious culture"
       },
       {
         "id": 6,
-        "title": "Student Success Stories",
+        "title": "Global Culture Initiative",
         "category": "featured",
-        "description": "Showcasing the creative growth and achievements of masterclass participants"
+        "description": "Positioning Georgia as a space where visual thinking, intellect, and creativity converge with contemporary global culture"
       }
     ]
   },
   "contact": {
-    "title": "Let's Connect",
-    "subtitle": "Whether you're seeking visual education, creative collaboration, or simply want to connect—I'd love to hear from you",
+    "title": "Let's Create Together",
+    "subtitle": "For those who dare to shape the future — whether you seek brand vision development, creative education, or conscious collaboration",
     "form": {
       "name": "Your Name",
       "email": "Email Address",
-      "message": "Share your story or question",
-      "submit": "Send Message"
+      "message": "Share your vision",
+      "submit": "Begin the Conversation"
     },
     "social": {
-      "title": "Follow Along",
+      "title": "Connect & Explore",
       "instagram": "Instagram",
       "linkedin": "LinkedIn",
       "youtube": "YouTube"
@@ -88,11 +91,11 @@
     "location": "Tbilisi, Georgia"
   },
   "footer": {
-    "tagline": "Where Beauty Meets Meaning — Georgian Heritage, Contemporary Vision",
-    "copyright": "© 2025 Nini Chaladzè. All rights reserved.",
+    "tagline": "Creating Systems Where Meaning and Aesthetics Build Conscious Culture",
+    "copyright": "© 2025 Nini Chaladze. All rights reserved.",
     "links": {
       "about": "About",
-      "portfolio": "Portfolio",
+      "portfolio": "Brand Ecosystem",
       "contact": "Contact"
     }
   }

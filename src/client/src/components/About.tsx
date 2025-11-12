@@ -9,8 +9,8 @@ export function About() {
   if (!content) return null;
 
   return (
-    <section 
-      id="about" 
+    <section
+      id="about"
       className="py-20 md:py-32 px-6"
       ref={ref}
     >
@@ -26,7 +26,7 @@ export function About() {
               data-testid="img-about"
             />
           </div>
-          
+
           <div className="md:col-span-2 space-y-6">
             <h2 className="font-serif text-4xl md:text-5xl font-semibold text-foreground" data-testid="text-about-title">
               {content.about.title}
@@ -38,9 +38,28 @@ export function About() {
                 </p>
               ))}
             </div>
-            <p className="text-lg font-medium text-primary italic" data-testid="text-about-mission">
-              {content.about.mission}
-            </p>
+
+            <div className="space-y-4 pt-4 border-t border-border/40">
+              <div>
+                <h3 className="text-sm font-semibold text-foreground/70 uppercase tracking-wider mb-2">Mission</h3>
+                <p className="text-base md:text-lg text-primary font-medium" data-testid="text-about-mission">
+                  {content.about.mission}
+                </p>
+              </div>
+
+              <div>
+                <h3 className="text-sm font-semibold text-foreground/70 uppercase tracking-wider mb-2">Vision</h3>
+                <p className="text-base md:text-lg text-primary font-medium" data-testid="text-about-vision">
+                  {content.about.vision}
+                </p>
+              </div>
+            </div>
+
+            <div className="pt-4">
+              <p className="text-base md:text-lg text-muted-foreground leading-relaxed italic" data-testid="text-about-manifesto">
+                {content.about.manifesto}
+              </p>
+            </div>
           </div>
         </div>
       </div>
