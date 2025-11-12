@@ -5,7 +5,7 @@ import { fileURLToPath } from 'url';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
-const projectRoot = path.resolve(__dirname, '..');
+const projectRoot = path.resolve(__dirname, '../..');
 
 const IMAGE_EXTENSIONS = ['.png', '.jpg', '.jpeg', '.gif'];
 const WEBP_QUALITY = 85; // Quality setting for WebP (0-100)

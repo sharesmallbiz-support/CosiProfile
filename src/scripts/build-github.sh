@@ -5,7 +5,7 @@
 echo "🔨 Building static site for GitHub Pages..."
 
 # Run vite build with GitHub-specific config (uses relative paths)
-vite build --config vite.config.github.ts
+npx vite build --config vite.config.github.ts
 
 # Remove old docs folder if it exists
 rm -rf docs
