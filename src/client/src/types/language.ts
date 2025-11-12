@@ -16,6 +16,7 @@ export interface LanguageContent {
     name: string;
     tagline: string;
     company: string;
+    subtitle: string;
     intro: string;
     cta: string;
   };
@@ -23,6 +24,8 @@ export interface LanguageContent {
     title: string;
     bio: string;
     mission: string;
+    vision: string;
+    manifesto: string;
   };
   videos: {
     title: string;
