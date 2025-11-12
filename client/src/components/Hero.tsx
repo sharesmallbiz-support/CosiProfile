@@ -1,7 +1,7 @@
 import { ChevronDown } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { useLanguage } from '@/contexts/LanguageContext';
-import heroImage from '@assets/unnamed_1760549168809.jpg';
+import heroImage from '@assets/unnamed_1760549168809.webp';
 
 export function Hero() {
   const { content } = useLanguage();
