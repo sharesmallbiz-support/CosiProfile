@@ -5,12 +5,12 @@ import { Button } from '@/components/ui/button';
 import { Dialog, DialogContent } from '@/components/ui/dialog';
 import type { PortfolioItem } from '@/types/language';
 
-import portfolioImage1 from '@assets/stock_images/handmade_bespoke_gif_b3f3ebb4.jpg';
-import portfolioImage2 from '@assets/stock_images/handmade_bespoke_gif_b2742060.jpg';
-import portfolioImage3 from '@assets/stock_images/handmade_bespoke_gif_9307335b.jpg';
-import portfolioImage4 from '@assets/stock_images/handmade_bespoke_gif_11754104.jpg';
-import portfolioImage5 from '@assets/stock_images/handmade_bespoke_gif_bba9cc82.jpg';
-import portfolioImage6 from '@assets/stock_images/handmade_bespoke_gif_5754d7b7.jpg';
+import portfolioImage1 from '@assets/stock_images/handmade_bespoke_gif_b3f3ebb4.webp';
+import portfolioImage2 from '@assets/stock_images/handmade_bespoke_gif_b2742060.webp';
+import portfolioImage3 from '@assets/stock_images/handmade_bespoke_gif_9307335b.webp';
+import portfolioImage4 from '@assets/stock_images/handmade_bespoke_gif_11754104.webp';
+import portfolioImage5 from '@assets/stock_images/handmade_bespoke_gif_bba9cc82.webp';
+import portfolioImage6 from '@assets/stock_images/handmade_bespoke_gif_5754d7b7.webp';
 
 const portfolioImages = [
   portfolioImage1,

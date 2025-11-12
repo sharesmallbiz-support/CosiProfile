@@ -1,6 +1,6 @@
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useScrollAnimation } from '@/hooks/useScrollAnimation';
-import aboutImage from '@assets/stock_images/artisan_workspace_ha_16dc79c5.jpg';
+import aboutImage from '@assets/stock_images/artisan_workspace_ha_16dc79c5.webp';
 
 export function About() {
   const { content } = useLanguage();
